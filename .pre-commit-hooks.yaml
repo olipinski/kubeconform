@@ -1,0 +1,7 @@
+- id: kubeconform
+  name: kubeconform
+  description: Kubernetes manifest validation
+  entry: kubeconform
+  language: golang
+  require_serial: true
+  types: ["yaml"]
